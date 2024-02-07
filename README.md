@@ -1,6 +1,6 @@
-# Shopaholic
+# TechnoCommerce
 
-### <b>Shopaholic is an E-Commerce site with 3 APIs: E-Commerce API, Bank API, and Supplier API</b>
+### <b>TechnoCommerce is an E-Commerce site with 3 APIs: E-Commerce API, Bank API, and Supplier API</b>
 
 <br/>
 
@@ -41,10 +41,10 @@ E-Commerce can save time for both the buyer and supplier, reducing phone calls a
   - Manage User
     - Can see user list
     - Can make a user admin
-    - Delete user if he/she violates Shopaholic policy
+    - Delete user if he/she violates TechnoCommerce policy
   - Manage Product
     - Can see product list
-    - Can create the product by giving product description
+    - Can create the product by giving a product description
     - Can upload product image
     - Can update product details
     - Can manage inventory
@@ -55,7 +55,7 @@ E-Commerce can save time for both the buyer and supplier, reducing phone calls a
     - Can see if a particular order is delivered or not
     - Can see order details
     - See the payment details
-    - Can pay the supplier through bank API and get transaction ID as response
+    - Can pay the supplier through bank API and get transaction ID as a response
     - Can send order requests with transaction ID and ordered products to the supplier through the supplier API. Supplier API verifies the transaction delivers the product and sends the delivery response to the admin and the admin marks the order as delivered.
 - <b> E-Commerce API </b>
   - User Routes
@@ -64,7 +64,7 @@ E-Commerce can save time for both the buyer and supplier, reducing phone calls a
     - Get an authenticated profile
     - Update user profile
     - Get all users
-    - Get user by id
+    - Get user by ID
     - Delete users
   - Product Routes
     - Get all products
